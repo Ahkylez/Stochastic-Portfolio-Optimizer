@@ -1,0 +1,27 @@
+# ── C++ build ────────────────────────────────────────────────────────────────
+build/
+*.exe
+*.obj
+*.o
+*.so
+*.lib
+*.dll
+
+# ── Generated data & results (large; regenerate locally) ─────────────────────
+data/
+logs/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Editor / OS ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store

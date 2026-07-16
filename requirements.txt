@@ -1,0 +1,14 @@
+# Python dependencies for the scenario generators and orchestration scripts.
+# The portfolio optimizer engine itself is C++ (see CMakeLists.txt / OR-Tools).
+#
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+
+numpy
+pandas
+scipy
+scikit-learn
+arch              # GARCH(1,1)-SkewStudent fits (vine scenario generator)
+pyvinecopulib     # R-vine copula fitting/simulation
+matplotlib        # analysis notebooks / tree diagnostics
+pytest            # test suite
