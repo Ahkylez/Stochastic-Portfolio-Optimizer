@@ -8,7 +8,10 @@ build/
 *.dll
 
 # ── Generated data & results (large; regenerate locally) ─────────────────────
-data/
+# Ignore the bulk data (.npy price arrays, scenario CSVs, old logs) but KEEP the
+# fetch/prep scripts that live under data/.
+data/*
+!data/*.py
 logs/
 
 # ── Python ───────────────────────────────────────────────────────────────────
