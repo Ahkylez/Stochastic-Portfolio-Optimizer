@@ -196,7 +196,9 @@ assets:
 | `3+Q … 3+2Q-1` | stage-2 (evaluate) prices `P^(j,e)` for the `Q` assets |
 
 Prices are absolute (not returns). Any generator that emits this format — copula,
-vine, or the external TC-VAE — can drive the optimizer unchanged.
+vine, or the external TC-VAE — can drive the optimizer unchanged. See
+[`docs/scenario_csv_format.md`](docs/scenario_csv_format.md) for the full spec,
+consistency checks, and a worked example.
 
 ---
 
